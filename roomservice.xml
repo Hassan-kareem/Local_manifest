@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-    <!-- Imported-From: https://github.com/srkndenis/local_manifests/blob/lineage-18.1/local_manifests.xml -->
+    <!-- Imported-From: https://github.com/lwys-trash-oct23/local_manifests/blob/lineage-20.0/roomservice.xml -->
     <!-- TODO: move these to lineage.dependencies? maybe? -->
 
     <!-- Samsung MSM8916 Common Repos -->
@@ -14,7 +14,7 @@
 
     <!-- GCC 7.2 arm-eabi -->
     <!-- OK so now you may want to install multilib ... -->
-    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.2" name="srkndenis/android-prebuilts-gcc-linux-x86-arm-arm-eabi-7.2" revision="master"/>
+    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.2" name="srkndenis/android-prebuilts-gcc-linux-x86-arm-arm-eabi-7.2" revision="master" clone-depth="1" />
 
     <!-- For build fixs -->
     <remove-project path="hardware/qcom-caf/wlan" />
